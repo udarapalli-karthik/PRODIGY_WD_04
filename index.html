@@ -1,0 +1,520 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>U.Karthik — Web Developer Portfolio</title>
+    <meta name="description"
+        content="Portfolio of U.Karthik, Full Stack Developer. Showcasing projects in Frontend, Backend, and Full-Stack development.">
+
+    <meta property="og:title" content="U.Karthik — Web Developer Portfolio">
+    <meta property="og:description" content="Portfolio of U.Karthik, Full Stack Developer.">
+    <meta property="og:type" content="website">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <link rel="stylesheet" href="style.css?v=1.1">
+</head>
+
+<body>
+
+    <nav id="navbar" aria-label="Main Navigation">
+        <div class="nav-container">
+            <a href="#hero" class="logo" aria-label="Home">
+                <i class="fa-solid fa-laptop" style="color: var(--accent-green);"></i> my-portfolio
+            </a>
+
+            <div class="hamburger" aria-label="Toggle Navigation" role="button" tabindex="0">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+
+            <ul class="nav-links">
+                <li><a href="#hero" class="active">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main>
+
+        <section id="hero" class="hero-section">
+            <div class="hero-content fade-in">
+                <div class="badge-wrapper">
+                    <span class="status-badge">Open to Work ✦</span>
+                </div>
+
+                <div class="profile-container">
+                    <img src="profile.jpg" alt="U.Karthik" class="profile-photo">
+                </div>
+
+                <h1 class="hero-headline">Hi, I'm <span class="gold-text">U.Karthik</span></h1>
+
+                <h2 class="typing-container">
+                    <span id="typing-text"></span><span class="cursor">|</span>
+                </h2>
+
+                <p class="bio-summary">
+                    I am a Full Stack Developer specializing in **Machine Learning**. I am a quick learner dedicated to
+                    solving coding and real-world problems through intelligent software solutions.
+                </p>
+
+                <div class="hero-actions">
+                    <a href="#projects" class="btn btn-primary">View My Work</a>
+                    <a href="#" class="btn btn-outline" target="_blank" rel="noopener noreferrer">Download Resume <i
+                            class="fa-solid fa-download"></i></a>
+                </div>
+
+                <div class="stats-row">
+                    <div class="stat-item">
+                        <span class="stat-number">5+</span>
+                        <span class="stat-label">Years Experience</span>
+                    </div>
+                    <div class="stat-divider"></div>
+                    <div class="stat-item">
+                        <span class="stat-number">50+</span>
+                        <span class="stat-label">Projects Shipped</span>
+                    </div>
+                    <div class="stat-divider"></div>
+                    <div class="stat-item">
+                        <span class="stat-number">30+</span>
+                        <span class="stat-label">Happy Clients</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="about-section scroll-anim">
+            <div class="container">
+                <h2 class="section-title">About <span class="gold-text">Me</span></h2>
+
+                <div class="about-grid">
+                    <div class="about-visual">
+                        <div class="illustration-box">
+                            <div class="shape shape-1"></div>
+                            <div class="shape shape-2"></div>
+                            <div class="illustration-content">
+                                <i class="fa-solid fa-code"></i>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="about-text">
+                        <p class="about-bio">
+                            I am a Full Stack Developer with a primary domain in Machine Learning. I am a quick
+                            learner who loves solving complex coding challenges and finding innovative solutions to
+                            real-world problems. My goal is to build intelligent applications that make a difference.
+                        </p>
+
+                        <div class="timeline-container">
+                            <div class="timeline-column">
+                                <h3 class="timeline-title"><i class="fa-solid fa-graduation-cap"></i> Education</h3>
+                                <div class="timeline-item">
+                                    <div class="timeline-dot"></div>
+                                    <h4>Bachelor of Technology (IT)</h4>
+                                    <p class="timeline-meta">G.M.R.I.T Deemed to be University, Rajam, Vizianagaram •
+                                        2024 - 2028</p>
+                                    <p class="timeline-desc">Specializing in Full Stack Development and Machine
+                                        Learning.</p>
+                                </div>
+                                <div class="timeline-item">
+                                    <div class="timeline-dot"></div>
+                                    <h4>Intermediate (M.P.C)</h4>
+                                    <p class="timeline-meta">Sree Balaji Junior College, Cheepurupalli, Vizianagaram
+                                        (AP) • 91.1%</p>
+                                    <p class="timeline-desc">Completed Higher Secondary Education.</p>
+                                </div>
+                            </div>
+
+                            <div class="timeline-column">
+                                <h3 class="timeline-title"><i class="fa-solid fa-briefcase"></i> Experience</h3>
+                                <div class="timeline-item">
+                                    <div class="timeline-dot"></div>
+                                    <h4>Full Stack Developer</h4>
+                                    <p class="timeline-meta">Software Projects • 2025 - Present</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <a href="#projects" class="btn btn-primary mt-4">View Full Portfolio <i
+                                class="fa-solid fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="skills-section scroll-anim">
+            <div class="container">
+                <h2 class="section-title">My <span class="gold-text">Skills</span></h2>
+                
+                <div class="skills-tabs">
+                    <button class="tab-btn active" data-target="frontend">Frontend</button>
+                    <button class="tab-btn" data-target="backend">Backend</button>
+                    <button class="tab-btn" data-target="ml-tools">Machine Learning & Tools</button>
+                </div>
+
+                <div class="skills-content">
+                    <!-- Frontend -->
+                    <div id="frontend" class="skill-category active">
+                        <div class="skills-grid">
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span>HTML5 & CSS3</span>
+                                    <span>95%</span>
+                                </div>
+                                <div class="progress-bar">
+                                    <div class="progress" data-width="95%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span>JavaScript (ES6+)</span>
+                                    <span>90%</span>
+                                </div>
+                                <div class="progress-bar">
+                                    <div class="progress" data-width="90%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span>React.js</span>
+                                    <span>85%</span>
+                                </div>
+                                <div class="progress-bar">
+                                    <div class="progress" data-width="85%"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Backend -->
+                    <div id="backend" class="skill-category">
+                        <div class="skills-grid">
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span>Node.js & Express</span>
+                                    <span>85%</span>
+                                </div>
+                                <div class="progress-bar">
+                                    <div class="progress" data-width="85%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span>Python</span>
+                                    <span>90%</span>
+                                </div>
+                                <div class="progress-bar">
+                                    <div class="progress" data-width="90%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span>Databases (SQL & MongoDB)</span>
+                                    <span>80%</span>
+                                </div>
+                                <div class="progress-bar">
+                                    <div class="progress" data-width="80%"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Machine Learning & Tools -->
+                    <div id="ml-tools" class="skill-category">
+                        <div class="skills-grid">
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span>Machine Learning (Scikit-Learn, PyTorch)</span>
+                                    <span>85%</span>
+                                </div>
+                                <div class="progress-bar">
+                                    <div class="progress" data-width="85%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span>Git & GitHub</span>
+                                    <span>90%</span>
+                                </div>
+                                <div class="progress-bar">
+                                    <div class="progress" data-width="90%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span>Docker & Cloud Deployment</span>
+                                    <span>75%</span>
+                                </div>
+                                <div class="progress-bar">
+                                    <div class="progress" data-width="75%"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="projects-section scroll-anim">
+            <div class="container">
+                <h2 class="section-title">Featured <span class="gold-text">Projects</span></h2>
+
+                <!-- Project Filters -->
+                <div class="project-filters">
+                    <button class="filter-btn active" data-filter="all">All</button>
+                    <button class="filter-btn" data-filter="web">Web Dev</button>
+                    <button class="filter-btn" data-filter="ml">Machine Learning</button>
+                </div>
+
+                <div class="projects-grid">
+                    <article class="project-card" data-category="ml">
+                        <div class="project-thumb">
+                            <img src="project_ai.png" alt="AI Image Generator">
+                        </div>
+                        <div class="project-info">
+                            <span class="project-tag">Machine Learning</span>
+                            <h3 class="project-name">AI Image Generator</h3>
+                            <p class="project-desc">A deep learning model utilizing GANs to generate high-resolution artistic images from text prompts.</p>
+                            <div class="project-links">
+                                <a href="#" class="project-link-btn"><i class="fa-brands fa-github"></i> Code</a>
+                                <button class="project-link-btn demo-btn" data-modal="modal-ai"><i class="fa-solid fa-play"></i> Demo</button>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="project-card" data-category="web">
+                        <div class="project-thumb">
+                            <img src="project_weather.png" alt="Weather Dashboard">
+                        </div>
+                        <div class="project-info">
+                            <span class="project-tag">Web Development</span>
+                            <h3 class="project-name">Weather Dashboard</h3>
+                            <p class="project-desc">A real-time weather tracking application featuring interactive forecast maps, historical trends, and dynamic styling.</p>
+                            <div class="project-links">
+                                <a href="#" class="project-link-btn"><i class="fa-brands fa-github"></i> Code</a>
+                                <button class="project-link-btn demo-btn" data-modal="modal-weather"><i class="fa-solid fa-play"></i> Demo</button>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="project-card" data-category="ml">
+                        <div class="project-thumb">
+                            <img src="project_sentiment.png" alt="Sentiment Analysis">
+                        </div>
+                        <div class="project-info">
+                            <span class="project-tag">Machine Learning</span>
+                            <h3 class="project-name">Customer Sentiment Analyzer</h3>
+                            <p class="project-desc">An NLP model built with Transformers to categorize consumer product feedback sentiments in real time.</p>
+                            <div class="project-links">
+                                <a href="#" class="project-link-btn"><i class="fa-brands fa-github"></i> Code</a>
+                                <button class="project-link-btn demo-btn" data-modal="modal-sentiment"><i class="fa-solid fa-play"></i> Demo</button>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== PROJECT DEMO MODALS ===== -->
+
+        <!-- Modal: AI Image Generator -->
+        <div id="modal-ai" class="project-modal-overlay" role="dialog" aria-modal="true" aria-labelledby="modal-ai-title">
+            <div class="project-modal">
+                <button class="modal-close" aria-label="Close modal"><i class="fa-solid fa-xmark"></i></button>
+                <div class="modal-header">
+                    <img src="project_ai.png" alt="AI Image Generator" class="modal-banner">
+                    <div class="modal-title-group">
+                        <span class="project-tag">Machine Learning</span>
+                        <h2 id="modal-ai-title">AI Image Generator</h2>
+                    </div>
+                </div>
+                <div class="modal-body">
+                    <div class="modal-section">
+                        <h3><i class="fa-solid fa-triangle-exclamation"></i> Problem Statement</h3>
+                        <p>Creating high-quality artistic images from text descriptions manually requires skilled designers and significant time. Small businesses and content creators lack access to affordable, fast, and customizable image generation tools. This project aims to bridge that gap using AI-powered generative models that produce unique images from simple text prompts.</p>
+                    </div>
+                    <div class="modal-section">
+                        <h3><i class="fa-solid fa-hammer"></i> How It Was Built</h3>
+                        <p>The core model is a <strong>Generative Adversarial Network (GAN)</strong> trained on a diverse dataset of artistic images. A <strong>text encoder</strong> (based on CLIP) converts the user's prompt into a latent vector, which the generator network uses to synthesize a new image. The discriminator was trained adversarially to ensure photo-realistic quality. A <strong>FastAPI</strong> backend serves the model, and a <strong>React.js</strong> frontend renders the results in real time.</p>
+                    </div>
+                    <div class="modal-section">
+                        <h3><i class="fa-solid fa-wrench"></i> Tools & Technologies</h3>
+                        <div class="modal-tools">
+                            <span class="tool-badge">Python</span>
+                            <span class="tool-badge">PyTorch</span>
+                            <span class="tool-badge">CLIP (OpenAI)</span>
+                            <span class="tool-badge">GAN Architecture</span>
+                            <span class="tool-badge">FastAPI</span>
+                            <span class="tool-badge">React.js</span>
+                            <span class="tool-badge">CUDA / GPU</span>
+                            <span class="tool-badge">Hugging Face</span>
+                        </div>
+                    </div>
+                    <div class="modal-section">
+                        <h3><i class="fa-solid fa-lightbulb"></i> Applications & Uses</h3>
+                        <ul class="modal-uses">
+                            <li><i class="fa-solid fa-check"></i> Generating marketing and advertising visuals instantly</li>
+                            <li><i class="fa-solid fa-check"></i> Design prototyping for UI/UX teams</li>
+                            <li><i class="fa-solid fa-check"></i> Digital art creation for artists and content creators</li>
+                            <li><i class="fa-solid fa-check"></i> Game asset and concept art generation</li>
+                            <li><i class="fa-solid fa-check"></i> Educational tools for visual learning materials</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Modal: Weather Dashboard -->
+        <div id="modal-weather" class="project-modal-overlay" role="dialog" aria-modal="true" aria-labelledby="modal-weather-title">
+            <div class="project-modal">
+                <button class="modal-close" aria-label="Close modal"><i class="fa-solid fa-xmark"></i></button>
+                <div class="modal-header">
+                    <img src="project_weather.png" alt="Weather Dashboard" class="modal-banner">
+                    <div class="modal-title-group">
+                        <span class="project-tag">Web Development</span>
+                        <h2 id="modal-weather-title">Weather Dashboard</h2>
+                    </div>
+                </div>
+                <div class="modal-body">
+                    <div class="modal-section">
+                        <h3><i class="fa-solid fa-triangle-exclamation"></i> Problem Statement</h3>
+                        <p>Users often need to switch between multiple weather services to get real-time conditions, historical trends, and multi-city forecasts. There was no single platform offering an interactive, visually rich, and fast weather experience. This dashboard solves that by aggregating live weather data into one clean, responsive interface.</p>
+                    </div>
+                    <div class="modal-section">
+                        <h3><i class="fa-solid fa-hammer"></i> How It Was Built</h3>
+                        <p>The frontend was built using <strong>React.js</strong> with dynamic components for current conditions, 7-day forecasts, and hourly breakdowns. The <strong>OpenWeatherMap API</strong> provides live weather data. <strong>Chart.js</strong> renders temperature and precipitation graphs, while <strong>Leaflet.js</strong> powers the interactive weather map. A lightweight <strong>Node.js/Express</strong> backend manages API keys securely and caches responses to optimize performance.</p>
+                    </div>
+                    <div class="modal-section">
+                        <h3><i class="fa-solid fa-wrench"></i> Tools & Technologies</h3>
+                        <div class="modal-tools">
+                            <span class="tool-badge">React.js</span>
+                            <span class="tool-badge">Node.js</span>
+                            <span class="tool-badge">Express.js</span>
+                            <span class="tool-badge">OpenWeatherMap API</span>
+                            <span class="tool-badge">Chart.js</span>
+                            <span class="tool-badge">Leaflet.js</span>
+                            <span class="tool-badge">CSS3 / Glassmorphism</span>
+                            <span class="tool-badge">REST APIs</span>
+                        </div>
+                    </div>
+                    <div class="modal-section">
+                        <h3><i class="fa-solid fa-lightbulb"></i> Applications & Uses</h3>
+                        <ul class="modal-uses">
+                            <li><i class="fa-solid fa-check"></i> Real-time personal weather monitoring for any city</li>
+                            <li><i class="fa-solid fa-check"></i> Travel and trip planning with multi-day forecasts</li>
+                            <li><i class="fa-solid fa-check"></i> Agricultural use — planning irrigation and harvest timings</li>
+                            <li><i class="fa-solid fa-check"></i> Outdoor event management and scheduling</li>
+                            <li><i class="fa-solid fa-check"></i> Research tool for historical climate data analysis</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Modal: Customer Sentiment Analyzer -->
+        <div id="modal-sentiment" class="project-modal-overlay" role="dialog" aria-modal="true" aria-labelledby="modal-sentiment-title">
+            <div class="project-modal">
+                <button class="modal-close" aria-label="Close modal"><i class="fa-solid fa-xmark"></i></button>
+                <div class="modal-header">
+                    <img src="project_sentiment.png" alt="Sentiment Analyzer" class="modal-banner">
+                    <div class="modal-title-group">
+                        <span class="project-tag">Machine Learning</span>
+                        <h2 id="modal-sentiment-title">Customer Sentiment Analyzer</h2>
+                    </div>
+                </div>
+                <div class="modal-body">
+                    <div class="modal-section">
+                        <h3><i class="fa-solid fa-triangle-exclamation"></i> Problem Statement</h3>
+                        <p>Businesses receive thousands of customer reviews daily across e-commerce platforms, social media, and support tickets. Manually reading and categorizing each review as positive, negative, or neutral is completely impractical at scale. This project automates that process using NLP — enabling businesses to instantly understand customer sentiment and take data-driven decisions.</p>
+                    </div>
+                    <div class="modal-section">
+                        <h3><i class="fa-solid fa-hammer"></i> How It Was Built</h3>
+                        <p>A <strong>BERT (Bidirectional Encoder Representations from Transformers)</strong> model was fine-tuned on a labeled product review dataset using <strong>Hugging Face Transformers</strong>. The model classifies input text into Positive, Negative, or Neutral categories with confidence scores. A <strong>FastAPI</strong> REST API exposes the inference endpoint, and a <strong>React.js</strong> dashboard visualizes results with donut charts, keyword clouds, and a real-time review feed.</p>
+                    </div>
+                    <div class="modal-section">
+                        <h3><i class="fa-solid fa-wrench"></i> Tools & Technologies</h3>
+                        <div class="modal-tools">
+                            <span class="tool-badge">Python</span>
+                            <span class="tool-badge">BERT / Transformers</span>
+                            <span class="tool-badge">Hugging Face</span>
+                            <span class="tool-badge">FastAPI</span>
+                            <span class="tool-badge">React.js</span>
+                            <span class="tool-badge">Pandas</span>
+                            <span class="tool-badge">scikit-learn</span>
+                            <span class="tool-badge">Chart.js</span>
+                        </div>
+                    </div>
+                    <div class="modal-section">
+                        <h3><i class="fa-solid fa-lightbulb"></i> Applications & Uses</h3>
+                        <ul class="modal-uses">
+                            <li><i class="fa-solid fa-check"></i> E-commerce platforms — auto-tagging product reviews</li>
+                            <li><i class="fa-solid fa-check"></i> Brand reputation monitoring across social media</li>
+                            <li><i class="fa-solid fa-check"></i> Customer support ticket prioritization by urgency</li>
+                            <li><i class="fa-solid fa-check"></i> Product improvement insights from negative feedback</li>
+                            <li><i class="fa-solid fa-check"></i> Market research and competitor analysis</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact-section scroll-anim">
+            <div class="container">
+                <h2 class="section-title">Get In <span class="gold-text">Touch</span></h2>
+
+                <form id="contactForm" class="contact-form">
+                    <div class="form-group">
+                        <input type="text" name="name" id="nameInput" placeholder=" " required>
+                        <label for="nameInput">Name</label>
+                        <span class="error-msg">Name is required</span>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" name="email" id="emailInput" placeholder=" " required>
+                        <label for="emailInput">Email</label>
+                        <span class="error-msg">Please enter a valid email</span>
+                    </div>
+                    <div class="form-group">
+                        <textarea name="message" id="messageInput" placeholder=" " required></textarea>
+                        <label for="messageInput">Message</label>
+                        <span class="error-msg">Message cannot be empty</span>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Send Message <i class="fa-solid fa-paper-plane"></i></button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>&copy; <span id="currentYear">2026</span> U.Karthik Portfolio. All rights reserved.</p>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button id="backToTop" class="back-to-top" aria-label="Back to top">
+        <i class="fa-solid fa-arrow-up"></i>
+    </button>
+
+    <!-- Toast Notification Banner -->
+    <div id="toast" class="toast">
+        <i class="fa-solid fa-circle-check toast-icon"></i>
+        <span>Message sent successfully!</span>
+    </div>
+
+    <script src="script.js?v=1.1"></script>
+</body>
+
+</html>
